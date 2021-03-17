@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drau</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <div id="main">
+      <div id="header">Drau</div>
+      <canvas id="canvas"></canvas>
+      <div id="tools">
+        <button class="btn"><input type="color" id="color-selector" /> &nbsp; Selección de color</button>
+        <button class="btn">
+          Espesor del pincel:
+          <input type="range" id="line-width-selector" value="5" min="1" max="100" />
+          <span id="line-width"></span>
+        </button>
+        <button class="btn" id="clean">Borrar todo</button>
+        <button class="btn" id="save-image">Guardar imagen</button>
+      </div>
+    </div>
+    <script src="./assets/scripts/app.js"></script>
+  </body>
+</html>
